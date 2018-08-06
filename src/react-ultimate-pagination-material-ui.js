@@ -2,12 +2,12 @@ import React from 'react';
 import {createUltimatePagination, ITEM_TYPES} from 'react-ultimate-pagination';
 import jss from 'jss';
 import classnames from 'classnames';
-import Button from 'material-ui/Button';
-import IconButton from 'material-ui/IconButton';
-import NavigationFirstPage from 'material-ui-icons/FirstPage';
-import NavigationLastPage from 'material-ui-icons/LastPage';
-import NavigationChevronLeft from 'material-ui-icons/ChevronLeft';
-import NavigationChevronRight from 'material-ui-icons/ChevronRight';
+import Button from '@material-ui/core/Button';
+import IconButton from '@material-ui/core/IconButton';
+import NavigationFirstPage from '@material-ui/icons/FirstPage';
+import NavigationLastPage from '@material-ui/icons/LastPage';
+import NavigationChevronLeft from '@material-ui/icons/ChevronLeft';
+import NavigationChevronRight from '@material-ui/icons/ChevronRight';
 
 const {classes} = jss
   .createStyleSheet({
