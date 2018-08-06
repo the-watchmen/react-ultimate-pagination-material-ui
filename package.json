@@ -13,7 +13,8 @@
     "build:main": "babel src -d lib",
     "build:umd": "webpack --output-filename react-ultimate-pagination-material-ui.js",
     "build:umd.min": "webpack --output-filename react-ultimate-pagination-material-ui.min.js -p",
-    "prepare": "install-self-peers -- --ignore-scripts"
+    "prepare": "install-self-peers -- --ignore-scripts",
+    "test": "echo 'no tests yet...'"
   },
   "repository": {
     "type": "git",
