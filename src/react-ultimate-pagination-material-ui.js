@@ -12,8 +12,6 @@ import NavigationChevronRight from '@material-ui/icons/ChevronRight';
 const {classes} = jss
   .createStyleSheet({
     button: {
-      height: '36px',
-      width: '36px',
       'min-width': '36px'
     },
     wrapper: {
